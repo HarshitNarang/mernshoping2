@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "shoopping list with mern stack",
   "main": "server.js",
+  "engine":{
+    "node":"12.18.0",
+    "npm":"6.14.5"
+  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
